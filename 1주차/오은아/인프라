@@ -1,0 +1,43 @@
+Docker-compose 명령어
+# docker-compose 설치
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+# 권한 부여
+sudo chmod +x /usr/local/bin/docker-compose
+
+# path 설정
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+왜 path설정으로 심볼릭 링크를 걸어줘야할까?
+처음에 docker-compose를 호스트에 깔고 젠킨스에서 접근하는건 왜 안될까
+-v은 잘만 되면서?
+
+애초에 도커 컨테이너와 호스트 시스템간의 파일공유나 접근을 위해서는 볼륨이 필요하다 볼륨이 아니라면 제한됨
+Q 그럼 심볼릭링크를 설정하지 않았어도 볼륨으로 해결가능하지 않나
+A 볼륨은 보통 파일 영속성을 위해 사용하지, 보통 실행파일을 공유하지는 않는다
+A 도커 컨테이너에서 호스트 파일에 직접 접근하는 것은 일반적으로 제한되어 있으나, 
+심볼릭 링크를 사용하여 호스트 파일이나 디렉토리에 접근하는 것은 기술적으로 가능합니다. 그러나 이러한 방식은 보안적인 위험을 수반할 수 있으므로,
+신중하게 사용하고 적절한 보안 조치를 취하는 것이 중요합니다.
+
+바인드 마운트는 뭐지? 아 몰라
+
+Q 호스트나 도커 컨테이너나 같은 네트워크 위에 있는거 아닌가? 왜 SSH를 써야하지?
+쓸 필요가 없엇다..ㅋㅋ
+근데 뭔가 도커 컨테이너랑 호스트랑 좀 달라보여서 SSH썼었는데 구지엿당...
+
+Builder패턴은 Setter대신 쓴다
+엔티티에서 Builder를 정의하고 이를 사용함
+
+VO는 불변하는 객체를 저장함
+
+어제 프로그래머스에서 삼각 어쩌구를 풀엇다
+등차수열.. 생각 못했는데 n(n+1)/2 기억하자
+난 프로그래머다 기술에 맞춰서 생각하기!
+for(int i~)에서 i%3에 따라서 x,y바꾸는건 생각못했는데
+정말 아이디어가 좋았다.
+ 
+
+
+
+
+
