@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1주차/정경리/2024-03-21.md",
+                "file": "1주차/정경리/자율주행 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1주차/정경리/2024-03-21.md",
+                "file": "1주차/정경리/자율주행 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1주차/정경리/2024-03-21.md",
+                "file": "1주차/정경리/자율주행 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1주차/정경리/2024-03-21.md"
+                "file": "1주차/정경리/자율주행 정리.md"
               }
             }
           },
@@ -167,8 +167,11 @@
   },
   "active": "40e81c877c60c68e",
   "lastOpenFiles": [
-    "1주차/정경리/2024-03-22.md",
+    "d.txt",
+    "새 텍스트 문서.txt",
+    "git",
     "1주차/정경리/2024-03-21.md",
+    "1주차/정경리/2024-03-22.md",
     "1주차/정경리/자율주행 정리.md",
     "README.md",
     "Spaces/Spaces.md",
