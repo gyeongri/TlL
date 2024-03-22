@@ -37,8 +37,16 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
+    "//1주차",
+    "//1주차/1주차/정경리",
+    "//1주차/1주차/정경리/1주차/정경리/Spaces",
+    "//1주차/1주차/정경리/1주차/정경리/Spaces",
+    "//Spaces/Spaces/Home",
     "//Spaces",
-    "//1주차"
+    "//Spaces",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
